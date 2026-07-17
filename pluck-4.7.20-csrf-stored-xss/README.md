@@ -28,7 +28,7 @@ Because saved page content is persisted without HTML encoding and echoed verbati
 | **CVSS v3.1** | 8.0 HIGH - `AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:L` |
 | **Discovered By** | Orion Hridoy |
 | **Status** | Reported to MITRE, CVE ID requested. Not yet independently confirmed by the vendor. |
-| **Vendor** | [pluck-cms.org](https://www.pluck-cms.org) |
+| **Vendor** | [Pluck](https://github.com/pluck-cms/pluck) |
 
 ### CVSS v3.1 vector breakdown
 
@@ -255,7 +255,7 @@ Discovered and disclosed by **Orion Hridoy** - [github.com/orionhridoy](https://
 ## References
 
 - CVE ID: pending assignment — this document is submitted as the public reference for that request
-- [Pluck CMS](https://www.pluck-cms.org)
+- [Pluck](https://github.com/pluck-cms/pluck)
 - [CWE-352 - Cross-Site Request Forgery](http://cwe.mitre.org/data/definitions/352.html)
 - [CWE-79 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')](http://cwe.mitre.org/data/definitions/79.html)
 
