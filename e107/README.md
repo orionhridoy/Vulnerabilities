@@ -46,7 +46,6 @@ Reading `e107_config.php` (database credentials) with a single unauthenticated r
 ├── e107_2.3.7_Security_Assessment_Report.txt  # full combined assessment report
 ├── F1-arbitrary-file-read/
 │   ├── README.md                              # GitHub write-up (images + gif)
-│   ├── cve-request.txt                         # plain-text CVE request (MITRE format)
 │   └── evidence/
 │       ├── proof_F1_config_read.png
 │       ├── proof_F1_outside_webroot.png
@@ -54,7 +53,6 @@ Reading `e107_config.php` (database credentials) with a single unauthenticated r
 │       └── exploit_demo.gif                    # animated PoC
 └── F2-open-redirect/
     ├── README.md
-    ├── cve-request.txt
     └── evidence/
         ├── proof_F2_open_redirect.png
         └── open_redirect_demo.gif
