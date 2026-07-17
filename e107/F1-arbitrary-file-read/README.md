@@ -157,7 +157,6 @@ takeover.
 
 | File | Description |
 |------|-------------|
-| `cve-request.txt` | Plain-text CVE request (MITRE format) with full PoC |
 | `evidence/proof_F1_config_read.png` | Unauthenticated 200 response leaking DB credentials |
 | `evidence/proof_F1_outside_webroot.png` | Reading `php.ini` from outside the web root |
 | `evidence/proof_rootcause.png` | WAF-bypass matrix + realpath/`strpos` defect |
