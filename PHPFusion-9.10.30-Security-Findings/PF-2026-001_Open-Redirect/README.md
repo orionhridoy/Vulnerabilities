@@ -118,8 +118,6 @@ Also harden `redirect()` to refuse any `Location` beginning with `//` or `/\`.
 | User interaction | Yes (open link; victim must be logged-out) |
 | Tested on | Apache 2.4.58 · PHP 8.2.12 · Windows/XAMPP |
 
-CVE request: [`CVE-REQUEST.txt`](CVE-REQUEST.txt)
-
 > ⚠️ Localhost-only, authorized assessment. Reproduce only against systems you own
 > or are authorized to test. The loopback (`127.0.0.1`) demo host was used
 > deliberately so no external system is ever contacted.
